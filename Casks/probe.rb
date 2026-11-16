@@ -6,25 +6,25 @@ cask "probe" do
     end
   end
 
-  version "1.36.0"
+  version "1.37.0"
 
   on_macos do
     on_arm do
-      sha256 "bc2d47d4c9ae1046e6ec346adf81f357094c1b160c3b455cdc7f2e4566738b34"
+      sha256 "5b6fcd5ea7734a1a36cb36e52a10ab63a4c60e473b2e11fa2f62a0a309d26c5e"
       url "https://github.com/mozership/probe/releases/download/v#{version}/probe_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c5a2f5ca5bcc9a9690ad7735e0a8f17114aaab07fb4733e4e6c2dbb11b2bd56c"
+      sha256 "2f7689bb6c2f7879b963b94341bf6e5e53915a86e8c47ba20385890dd1e57a36"
       url "https://github.com/mozership/probe/releases/download/v#{version}/probe_darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "53af0bb71d8ca6f41ce0e8eec651984074f13e5088d2133136a24fd0d2380ce4"
+      sha256 "7d710659d4c4aba1bc5e389aa357006c67d774f627f75d48ff45b4fbac848b4a"
       url "https://github.com/mozership/probe/releases/download/v#{version}/probe_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1fc85e17e4e68fc6c56c887362a1bfee4ea00ccfbd561e10388d6d4ad90cf93c"
+      sha256 "aa4917a87fb6e2c3c47ebe4343bc95a1d15ee0856ba772bbeaf3796438381c64"
       url "https://github.com/mozership/probe/releases/download/v#{version}/probe_linux_x86_64.tar.gz"
     end
   end
